@@ -1,0 +1,52 @@
+.heading h1{
+  margin-left:500px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.card {
+
+  display: flex;
+  gap: 20px;          /* cards ke beech space */
+
+  justify-content: center; /* center align */
+  margin-top: 30px;
+   flex-wrap: wrap;
+
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0;
+  color: #000;
+}
+
+.card-button {
+  width: 100%;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card-button:hover {
+  background-color: #e65c00;
+}
